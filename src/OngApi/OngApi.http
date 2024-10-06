@@ -1,0 +1,6 @@
+@OngApi_HostAddress = http://localhost:5131
+
+GET {{OngApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
