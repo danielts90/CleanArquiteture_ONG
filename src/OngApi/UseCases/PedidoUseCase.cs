@@ -31,7 +31,7 @@ namespace OngApi.UseCases
             pedido.Situacao = StatusPedido.Recusado;
         }
 
-        public bool ValidarPedido(List<Produto> estoque, Pedido pedido)
+        public bool ValidarEstoquePedido(List<Produto> estoque, Pedido pedido)
         {
             foreach(var produto in pedido.Produtos)
             {

@@ -5,17 +5,12 @@ namespace OngApi.UseCases
 {
     public class OngUseCase : IOngUseCase
     {
-        public Task BaixarEstoque(Ong ong, Pedido pedido)
+        public IEnumerable<Produto> ListarEstoque(Ong ong)
         {
-            throw new NotImplementedException();
+            return ong.Estoque;
         }
 
-        public Task<IEnumerable<Produto>> ListarEstoque(Ong ong)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IEnumerable<Pedido>> ListarPedidos(Ong ong)
+        public IEnumerable<Pedido> ListarPedidos(Ong ong)
         {
             throw new NotImplementedException();
         }

@@ -4,8 +4,7 @@ namespace OngApi.Interfaces.UseCases
 {
     public interface IOngUseCase
     {
-        Task<IEnumerable<Produto>> ListarEstoque(Ong ong);
-        Task BaixarEstoque(Ong ong, Pedido pedido);
-        Task<IEnumerable<Pedido>> ListarPedidos(Ong ong);
+        IEnumerable<Produto> ListarEstoque(Ong ong);
+        IEnumerable<Pedido> ListarPedidos(Ong ong);
     }
 }

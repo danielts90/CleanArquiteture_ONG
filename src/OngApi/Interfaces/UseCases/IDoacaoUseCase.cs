@@ -4,6 +4,6 @@ namespace OngApi.Interfaces.UseCases
 {
     public interface IDoacaoUseCase
     {
-        Task ReceberDoacao(Doacao doacao);
+        Doacao RegistrarDoacao(Ong distribuidora, List<Produto> produtos);
     }
 }

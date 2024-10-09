@@ -9,10 +9,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IPedidoUseCase, PedidoUseCase>();
 builder.Services.AddScoped<IDoacaoUseCase, DoacaoUseCase>();
 builder.Services.AddScoped<IOngUseCase, OngUseCase>();
+builder.Services.AddScoped<IEstoqueUseCase, EstoqueUseCase>();
 
 builder.Services.AddScoped<IOngGateway, OngGateway>();
 builder.Services.AddScoped<IPedidoGateway, PedidoGateway>();
 builder.Services.AddScoped<IProdutoGateway, ProdutoGateway>();
+builder.Services.AddScoped<IDoacaoGateway, DoacaoGateway>();
+builder.Services.AddScoped<IEstoqueGateway, EstoqueGateway>();
 
 
 builder.Services.AddControllers();

@@ -13,8 +13,6 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Adapters\" />
-    <Folder Include="Daos\" />
-    <Folder Include="CA_Controllers\" />
   </ItemGroup>
 
 </Project>

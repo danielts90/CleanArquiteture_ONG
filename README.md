@@ -45,7 +45,7 @@ O objetivo é fazer uma arquitetura e uma aplicação que:
 Uma ONG Receptora irá solicitar uma lista de produtos a uma ONG Distribuidora.  
 O Pedido deverá ser criado contendo o status de "Pendente" e com a Data/Hora atual como Data de Solicitação.
 
-#### Adicionar ao Estoque (Doação)
+#### Receber doação (Doação)
 Lista de produtos recebidos pela ONG Distribuidora para incrementar o estoque. 
 
 #### Listar Pedidos (ONG Distribuidora)
